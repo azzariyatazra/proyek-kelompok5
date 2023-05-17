@@ -189,16 +189,17 @@ void soal(){
         printf("\n\nMohon maaf jawaban anda salah\nAnda berhak membawa pulang uang sebesar Rp%d!\n\nTerima kasih telah memainkan game ini!!!", hadiah);
         exit(1);
     }
+    //di commit oleh meutia aini
     //soal 4
     printf("\n\nHadiah untuk pertanyaan keempat = Rp1.600.000\n");
     printf("\n\t\t\t\tTekan \"ENTER\" untuk menuju soal berikutnya!");
     getchar();
     system("cls");
     printf("\t\t\tUang yang anda telah kumpulkan = Rp%d", hadiah);
-    printf("\n\n\t\t\tDi bawah ini merupakan fungsi untuk melakukan looping, kecuali?\n\n");
-    printf("\t\t\t\tA. While\n");
-    printf("\t\t\t\tB. Switch\n");
-    printf("\t\t\t\tC. For\n\n");
+    printf("\n\n\t\t\tApa nama sungai terpanjang di Amerika Serikat\n\n");
+    printf("\t\t\t\tA. Sungai Columbia\n");
+    printf("\t\t\t\tB. Sungai Mississippi\n");
+    printf("\t\t\t\tC. Sungai Missouri\n\n");
     printf("\t\t\tJawaban anda (Jawablah menggunakan huruf kapital sesuai pilihan yang tersedia (A/B/C)) = ");
     scanf("%c", &jawaban);
     getchar();
@@ -218,10 +219,10 @@ void soal(){
     getchar();
     system("cls");
     printf("\t\t\tUang yang anda telah kumpulkan = Rp%d", hadiah);
-    printf("\n\n\t\t\t\"i++\" merupakan contoh dari perintah?\n\n");
-    printf("\t\t\t\tA. Increment\n");
-    printf("\t\t\t\tB. Decrement\n");
-    printf("\t\t\t\tC. Nested loop\n\n");
+    printf("\n\n\t\t\t\"i++\" Siapa penulis novel 'Harry Potter\n\n");
+    printf("\t\t\t\tA.J.K. Rowling\n");
+    printf("\t\t\t\tB. Dan Brown\n");
+    printf("\t\t\t\tC. Stephen King\n\n");
     printf("\t\t\tJawaban anda (Jawablah menggunakan huruf kapital sesuai pilihan yang tersedia (A/B/C)) = ");
     scanf("%c", &jawaban);
     getchar();
@@ -234,4 +235,6 @@ void soal(){
         printf("\n\nMohon maaf jawaban anda salah\nAnda berhak membawa pulang uang sebesar Rp%d!\n\nTerima kasih telah memainkan game ini!!!", hadiah);
         exit(1);
     }
+    return 0;
 }
+
