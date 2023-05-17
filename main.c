@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+void soal();
 typedef struct
 {
     char name[20];
@@ -73,7 +74,7 @@ int main(int manyArgument, char *argument[])
         printf("Note cara login : ./FileProgramUtama Username Password (harap perhatikan huruf besar dan kecil ya <3!)\n\n");
     }
     
-}
+
 
 if(manyArgument == 3){
         regis reg;
